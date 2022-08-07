@@ -103,6 +103,56 @@ h2 {
 	width: 80%;
 }
 
+.challengedisptoofew {
+	color: black;
+  padding: 4px 12px;
+  text-decoration: none;
+	background-color: #1F1A24;
+  display: block;
+	width: 80%;
+	background-color: yellow
+}
+
+.challengedisptoofew:hover, .challengedisptoofew:focus {
+	background-color: #a2a21d;
+}
+
+.challengedispperf {
+	color: black;
+  padding: 4px 12px;
+  text-decoration: none;
+	background-color: #1F1A24;
+  display: block;
+	width: 80%;
+	background-color: green
+}
+
+.challengedispperf:hover, .challengedispperf:focus {
+	background-color: #165516;
+}
+
+.challengedisptoofew:hover, .challengedisptoofew:focus {
+	background-color: #a2a21d;
+}
+
+.challengedisptoomany {
+	color: black;
+  padding: 4px 12px;
+  text-decoration: none;
+	background-color: #1F1A24;
+  display: block;
+	width: 80%;
+	background-color: red
+}
+
+.challengedisptoomany:hover, .challengedisptoomany:focus {
+	background-color: #a80000;
+}
+
+.challengedisp:hover, .challengedisp:focus {
+  background-color: #3C3048;
+}
+
 .champbutton {
 	background-color: #03DAC6; /* Green */
   border: none;
@@ -119,6 +169,10 @@ h2 {
 	font-weight: bold;
 }
 
+.champbutton:hover, .champbutton:focus {
+  background-color: #019789;
+}
+
 .champbuttonsmall {
 	background-color: #03DAC6; /* Green */
   border: none;
@@ -132,6 +186,10 @@ h2 {
 	margin: 5px;
 	font-weight: bold;
 	font: 100%/1.5 Comfortaa, sans-serif;
+}
+
+.champbuttonsmall:hover, .champbuttonsmall:focus {
+  background-color: #019789;
 }
 
 /* Change color of dropdown links on hover */

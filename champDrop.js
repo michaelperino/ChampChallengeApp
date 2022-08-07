@@ -23,6 +23,7 @@ for(var i = 0; i < champList.length; i++) {
 }
 
 function addChamp(inp) {
+	document.getElementById("champSelector").classList.remove("show");
 	if(champs.length < 5 && !champs.includes(inp)) {
 		champs.push(inp);
 		console.log(inp);
@@ -84,19 +85,18 @@ function processChamps() {
 	console.log(challengesApplicable)
 	for(var i = 0; i < challengesApplicable.length; i++) {
 		if(challengeCounter[challengesApplicable[i]] > 1) {
-			color = "#1F1A24";
 			if(challengeCounter[challengesApplicable[i]] < challengeNum[challengesApplicable[i]]) {
-				color = "yellow";
+				newclass = "challengedisptoofew";
 			}
 			if(challengeCounter[challengesApplicable[i]] == challengeNum[challengesApplicable[i]]) {
-				color = "green";
+				newclass = "challengedispperf";
 			}
 			if(challengeCounter[challengesApplicable[i]] > challengeNum[challengesApplicable[i]]) {
-				color = "red";
+				newclass = "challengedisptoomany";
 			}
 			for(var j = 1; j <= challengeCounter[challengesApplicable[i]]; j++) {
-				document.getElementById(challengesApplicable[i]+"_challenge_"+j).style.background = color;
-				document.getElementById(challengesApplicable[i]+"_challenge_"+j).style.color = "black";
+				document.getElementById(challengesApplicable[i]+"_challenge_"+j).classList.add(newclass)
+				document.getElementById(challengesApplicable[i]+"_challenge_"+j).classList.remove("challengedisp")
 			}
 		}
 	}
