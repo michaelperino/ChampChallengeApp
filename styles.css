@@ -8,7 +8,7 @@ article {
   width: 90%;
   max-width: 90ch;
   margin: 2rem auto;
-	background-color: #121212;
+	background-color: #0E0F0F;
 	min-height: 1500px;
 	padding: 12px 60px;
 }
@@ -41,8 +41,8 @@ h2 {
  /* Dropdown Button */
 .dropbtn {
 	font: 100%/1.5 Comfortaa, sans-serif;
-  background-color: #03DAC6;
-  color: black;
+  background-color: #01796E;
+  color: #E8E6E3;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -64,11 +64,13 @@ h2 {
   font-size: 16px;
   padding: 14px 20px 12px 45px;
   border: none;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #000;
+	background-color: #1D2021;
+	color: #E8E6E3;
 }
 
 /* The search field when it gets focus/clicked on */
-#myInput:focus {outline: 3px solid #ddd;}
+#myInput:focus {outline: 3px solid #444;}
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
@@ -80,15 +82,15 @@ h2 {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f6f6f6;
+  background-color: #202324;
   min-width: 230px;
-  border: 1px solid #ddd;
+  border: 2px solid #444;
   z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
+  color: #E8E6E3;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -104,13 +106,12 @@ h2 {
 }
 
 .challengedisptoofew {
-	color: black;
+	color: #E8E6E3;
   padding: 4px 12px;
   text-decoration: none;
-	background-color: #1F1A24;
+	background-color: #828217;
   display: block;
 	width: 80%;
-	background-color: yellow
 }
 
 .challengedisptoofew:hover, .challengedisptoofew:focus {
@@ -118,13 +119,12 @@ h2 {
 }
 
 .challengedispperf {
-	color: black;
+	color: #E8E6E3;
   padding: 4px 12px;
   text-decoration: none;
-	background-color: #1F1A24;
+	background-color: #124412;
   display: block;
 	width: 80%;
-	background-color: green
 }
 
 .challengedispperf:hover, .challengedispperf:focus {
@@ -136,17 +136,16 @@ h2 {
 }
 
 .challengedisptoomany {
-	color: black;
+	color: #E8E6E3;
   padding: 4px 12px;
   text-decoration: none;
-	background-color: #1F1A24;
+	background-color: #0a1e0a;
   display: block;
 	width: 80%;
-	background-color: red
 }
 
 .challengedisptoomany:hover, .challengedisptoomany:focus {
-	background-color: #a80000;
+	background-color: #081808;
 }
 
 .challengedisp:hover, .challengedisp:focus {
@@ -154,9 +153,9 @@ h2 {
 }
 
 .champbutton {
-	background-color: #03DAC6; /* Green */
+	background-color: #01796E; /* Green */
   border: none;
-  color: black;
+  color: #E8E6E3;
 	border-radius: 4px;
   padding: 6px 10px;
 	min-width: 18%;
@@ -174,9 +173,9 @@ h2 {
 }
 
 .champbuttonsmall {
-	background-color: #03DAC6; /* Green */
+	background-color: #01796E; /* Green */
   border: none;
-  color: black;
+  color: #E8E6E3;
 	border-radius: 4px;
   padding: 4px 6px;
   text-align: center;
@@ -193,7 +192,7 @@ h2 {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #243334}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;} 
